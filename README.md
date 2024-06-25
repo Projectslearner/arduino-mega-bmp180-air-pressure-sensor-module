@@ -2,6 +2,8 @@
 
 ### Project Overview
 
+Integrating a BMP180 air pressure sensor with an Arduino Mega involves connecting the sensor's VCC to the Arduino's 5V, GND to GND, SDA to SDA (pin 20), and SCL to SCL (pin 21). Using libraries like Adafruit BMP085 Unified, you can read atmospheric pressure and temperature data. The sensor communicates over the I2C bus, making it straightforward to collect real-time environmental data. The BMP180 is highly accurate, ideal for weather stations, altitude tracking, and barometric pressure monitoring projects. Coding involves initializing the sensor, reading values, and converting them to meaningful units like Pascals or meters.
+
 #### Components Needed
 
 1. **Arduino Mega**
